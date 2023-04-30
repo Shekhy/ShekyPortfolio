@@ -1,6 +1,6 @@
 <h1>Create a new Portfolio Items</h1>
 
-<%= form_with(model: @portfolio_items) do |form| %>
+<%= form_for(@portfolio_items) do |form| %>
 
   <div>
     <%= form.label :title, style: "display: block" %>

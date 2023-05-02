@@ -1,6 +1,7 @@
-<p style="color: green"><%= notice %></p>
+<%= image_tag @portfolio_item.main_image %>
 
+<h1><%= @portfolio_item.title %></h1>
 
-  <div>
-    <%= link_to "Back to portfolios item", portfolios_path %>
-  </div>
+<em><%= @portfolio_item.subtitle %></em>
+
+<p><%= @portfolio_item.body %></p>

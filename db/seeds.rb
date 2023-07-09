@@ -58,9 +58,6 @@ puts "5 skill created"
 			 est laborum" ,
 		main_image: "https://via.placeholder.com/600x400",
 		thumb_image: "http://via.placeholder.com/350x200"
-
-
-
 		)
 end
 

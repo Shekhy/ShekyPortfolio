@@ -36,7 +36,7 @@ puts "10 blog posts created"
 5.times do |skill|
 	Skill.create!(
 		title: "Rails #{skill}",
-		precent_utilized: 15
+		percent_utilized: 15
 	)
 end
 

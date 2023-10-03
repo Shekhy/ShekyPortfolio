@@ -1,0 +1,3 @@
+      invoke  active_record
+      create    db/migrate/20231003113651_create_technologies.rb
+      create    app/models/technology.rb

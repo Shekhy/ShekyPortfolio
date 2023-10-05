@@ -43,8 +43,8 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 gem 'coffee-rails', '~> 4.2'
-
 gem 'friendly_id', '~> 5.4.0'
+gem 'devise', '~> 4.9', '>= 4.9.2'
 
 # Use Sass to process CSS
 # gem "sassc-rails"

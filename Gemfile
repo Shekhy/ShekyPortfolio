@@ -44,6 +44,7 @@ gem "bootsnap", require: false
 
 gem 'coffee-rails', '~> 4.2'
 gem 'friendly_id', '~> 5.4.0'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
 gem 'devise', '~> 4.9', '>= 4.9.2'
 
 # Use Sass to process CSS
